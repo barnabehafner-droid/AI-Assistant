@@ -7,6 +7,7 @@
     <title>AI Personal Organizer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <link rel="manifest" href="/AI-Assistant/assets/manifest-D28BV6m0.json" />
 <style>
   @keyframes highlight-outline {
     0% { outline: 3px solid rgba(99, 102, 241, 0.5); outline-offset: 2px; }
@@ -109,6 +110,66 @@
   .note-preview > *:last-child {
     margin-bottom: 0;
   }
+  
+  /* Prose styles for legal pages */
+  .prose {
+    color: #334155; /* slate-700 */
+    max-width: 65ch;
+    margin: 0 auto;
+  }
+  .prose h1 {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: 800; /* font-extrabold */
+    margin-bottom: 1rem;
+    color: #1e293b; /* slate-800 */
+  }
+  .prose h2 {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 700; /* font-bold */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e2e8f0; /* slate-200 */
+    color: #1e293b; /* slate-800 */
+  }
+  .prose p {
+    line-height: 1.75;
+    margin-bottom: 1.25rem;
+  }
+  .prose ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .prose li {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Widget Reordering Styles */
+  @keyframes jiggle {
+    0%, 100% { transform: rotate(-0.5deg); }
+    50% { transform: rotate(0.5deg); }
+  }
+  .widget-reordering-active {
+    animation: jiggle 0.3s infinite cubic-bezier(.36,.07,.19,.97);
+    cursor: grab;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.3); /* ring-2 ring-indigo-300 ring-opacity-30 */
+  }
+
+  /* Accordion transition */
+  .accordion-content {
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  /* AI Enrichment Pulse */
+  @keyframes sparkle-pulse {
+    0%, 100% { transform: scale(1); opacity: 0.7; }
+    50% { transform: scale(1.2); opacity: 1; }
+  }
+  .animate-sparkle-pulse {
+    animation: sparkle-pulse 1.5s infinite cubic-bezier(.36,.07,.19,.97);
+  }
 </style>
 
 <link rel="stylesheet" href="/index.css">
@@ -124,7 +185,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/AI-Assistant/assets/index-CCTdeLCc.js"></script>
+  <script type="module" crossorigin src="/AI-Assistant/assets/index-BybQTRx7.js"></script>
 </head>
   <body class="bg-slate-100">
     <div id="root"></div>
