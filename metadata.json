@@ -1,0 +1,8 @@
+{
+  "name": "Copy of AI Personal Organizer 6 TEST",
+  "description": "An intelligent personal organizer to manage to-do lists, shopping lists, and notes. Simply type what's on your mind, and the AI will categorize, prioritize, and organize it for you.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
