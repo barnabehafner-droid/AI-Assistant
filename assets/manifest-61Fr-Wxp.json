@@ -2,7 +2,7 @@
   "name": "AI Personal Organizer",
   "short_name": "AI Organizer",
   "description": "An intelligent personal organizer to manage your life.",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#f1f5f9",
   "theme_color": "#4f46e5",
