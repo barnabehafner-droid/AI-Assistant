@@ -3,10 +3,11 @@
   "short_name": "AI Organizer",
   "description": "An intelligent personal organizer to manage your life.",
   "id": "/AI-Assistant/",
-  "start_url": ".",
+  "start_url": "/AI-Assistant/",
   "display": "standalone",
   "background_color": "#f1f5f9",
   "theme_color": "#4f46e5",
+  "scope": "/AI-Assistant/",
   "icons": [
     {
       "src": "https://i.imgur.com/Kh5mOZ0.png",
@@ -38,7 +39,7 @@
     }
   ],
   "share_target": {
-    "action": "./?share-target=true",
+    "action": "/AI-Assistant/?share-target=true",
     "method": "GET",
     "enctype": "application/x-www-form-urlencoded",
     "params": {
