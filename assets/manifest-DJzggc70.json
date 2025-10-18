@@ -2,6 +2,7 @@
   "name": "AI Personal Organizer",
   "short_name": "AI Organizer",
   "description": "An intelligent personal organizer to manage your life.",
+  "id": "/AI-Assistant/",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#f1f5f9",
