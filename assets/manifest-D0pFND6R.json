@@ -39,7 +39,7 @@
     }
   ],
   "share_target": {
-    "action": "/AI-Assistant/?share-target=true",
+    "action": "./?share-target=true",
     "method": "GET",
     "enctype": "application/x-www-form-urlencoded",
     "params": {
